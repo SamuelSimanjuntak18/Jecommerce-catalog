@@ -1,6 +1,6 @@
 <template>
-
   <div class="container">
+    <h1 style="color:white;">One step closer To Your Favorite Movies </h1> <br>
     <div class="row">
       <div
         v-for="(show, index) in shows"
@@ -12,12 +12,11 @@
           <img
             v-if="show.image"
             :src="show.image.medium"
-            
-            class="card-img-top"
-            :alt="`Poster for ${show.name}`"
+            class="card-img-top image-clickable"
+           :alt="`Poster for ${show.name}`"
             style="max-width: 100%; height: auto; object-fit: cover;"
           />
-          <div class="card-body">
+          <div class="card-body"> 
             <h5 class="card-title">{{ show.name }}</h5>
             <button class="btn btn-primary" @click="showDetails(show)">
               <a :href="show.url" target="_blank" class="btn btn-primary" style="text-decoration: none;">Baca Selengkapnya</a>
@@ -28,10 +27,17 @@
     </div>
   </div>
 </template>
-
 <style>
 body {
-  background-color: #E50914;
+  background-color:black;
+}
+.image-clickable {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.image-clickable:hover {
+  transform: scale(1.1);
 }
 </style>
 <script>
@@ -59,6 +65,8 @@ export default {
 };
 
 </script>
+
+
 
 
 
