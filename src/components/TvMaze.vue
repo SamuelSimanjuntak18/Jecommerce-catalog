@@ -5,8 +5,8 @@
   <div class="row">
     <div class="col-md-6">
       <div class="d-flex h-100 justify-content-start align-items-center flex-column">
-        <h1 style="color:black;">One step closer To Your Favorite Movies</h1>
-        <b>
+        <h1 style="color:white;">One step closer To Your Favorite Movies</h1>
+        <b style="color:white;">
           These Are That You are Waiting
         </b>
         <button class="btn btn-primary mr-5">
@@ -36,12 +36,10 @@
   </div>
 </div>
 
-
-
 </template>
 <style>
 body {
-  background-color: white;
+  background-color: #000;
 }
 
 .image-clickable {
