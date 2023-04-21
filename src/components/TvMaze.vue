@@ -3,19 +3,16 @@
 <div class="container">
   <br><br>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-12">
       <div class="d-flex h-100 justify-content-start align-items-center flex-column">
-        <h1 style="color:white;">One step closer To Your Favorite Movies</h1>
-        <b style="color:white;">
+        <h1 style="color:white;font-size: 80px;">One step closer To Your Favorite Movies</h1>
+        <h4 style="color:white;">
           These Are That You are Waiting
-        </b>
+        </h4>
         <button class="btn btn-primary mr-5">
           <a href="#card-bawah" style="color: white; text-decoration: none;">Kunjungi</a>
         </button>
       </div>
-    </div>
-    <div class="col-md-6">
-      <img src="../assets/movie.png" style="width: 100%;height: 100%;">
     </div>
   </div>
   <br><br>
